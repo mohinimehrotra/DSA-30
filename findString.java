@@ -16,11 +16,11 @@ public class findString {
      return -1;
 	 
  }
- public static void main() {
+ public static void main(String args[]) {
 	  String haystack = "sadbutsad";
       String needle = "sad";
       
-      int result = findStartIndexOfSubstr(haystack, needle);
-      System.out.println("Start index is"+ result);
+      int result = findStartIndexOfSubstr(needle, haystack);
+      System.out.println("Start index is "+ result);
  }
 }
